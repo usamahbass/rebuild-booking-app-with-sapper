@@ -1,0 +1,75 @@
+.custom_booking {
+  width: 487px;
+  height: 550px;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 15px;
+
+  &__in {
+    padding: 60px;
+    width: 320px;
+    height: 440px;
+
+    .booking-title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 33px;
+      color: $primary_2;
+    }
+
+    .booking-pricing {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 54px;
+      color: $success;
+
+      .muted {
+        color: #b0b0b0;
+      }
+    }
+
+    #counter {
+      .input-group {
+        width: 300px;
+      }
+    }
+
+    #pickdate {
+      .desc-book {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .custom_booking {
+    width: 100%;
+
+    &__in {
+      #counter {
+        .input-group {
+          width: 100%;
+        }
+      }
+
+      #pickdate {
+        .sc-popover {
+          .trigger {
+            div {
+              .calendar-button {
+                width: 100%;
+              }
+            }
+          }
+        }
+
+        .desc-book {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

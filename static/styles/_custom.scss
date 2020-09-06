@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import '~bootstrap/scss/bootstrap';
+
+@import './base/base';
+@import './base/variables';
+@import './components/navbar';
+@import './components/button';
+@import './components/booking';
+@import './components/card';
+@import './components/breadcrumb';
+@import './components/typography';
+@import './components/imagegrid';
+@import './utilities/typography';

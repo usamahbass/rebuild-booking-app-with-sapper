@@ -1,0 +1,40 @@
+.image_grid {
+  position: relative;
+  width: 643px;
+  height: 500px;
+  left: 25px;
+  border-radius: 15px;
+  background-size: cover;
+}
+
+.image_grid_top {
+  position: absolute;
+  width: 487px;
+  height: 245px;
+  left: 803px;
+  top: 262px;
+  border-radius: 15px;
+  background-size: cover;
+}
+
+.image_grid_bottom {
+  position: absolute;
+  width: 487px;
+  height: 245px;
+  left: 803px;
+  top: 517px;
+  border-radius: 15px;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1000px) {
+  .image_grid,
+  .image_grid_top,
+  .image_grid_bottom {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 0.75rem;
+  }
+}

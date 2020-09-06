@@ -1,0 +1,39 @@
+.btn-custom {
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 170%;
+  width: 210px;
+  text-align: center;
+  color: #ffffff;
+
+  &:hover,
+  &:active {
+    color: #ffffff;
+    opacity: 0.8;
+  }
+}
+
+.btn-primary {
+  background: $primary;
+  box-shadow: 0px 8px 15px $secondary;
+}
+
+.btn-danger {
+  background: $danger;
+}
+
+.btn-success {
+  background: $success;
+  border-color: $success;
+}
+
+.btn-sm {
+  width: 45px;
+  height: 45px;
+}
+
+.btn-booking {
+  width: 300px;
+}

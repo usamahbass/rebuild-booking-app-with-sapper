@@ -1,0 +1,53 @@
+header {
+  .navbar {
+    .container {
+      .navbar-brand {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 39px;
+        color: $primary;
+      }
+
+      .nav {
+        .nav-item {
+          .nav-link {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: 39px;
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+
+  .rectangle {
+    width: 100%;
+    height: 1px;
+    left: 0px;
+    top: 79px;
+    background: #e5e5e5;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    .navbar {
+      .container {
+        .navbar-brand {
+          margin: auto;
+        }
+
+        .nav {
+          .nav-item {
+            .nav-link {
+              font-size: 12px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
